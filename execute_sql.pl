@@ -34,7 +34,7 @@ sub readScriptList {
   return @listScript;
 }
 
-sub executeSqlAndLogexecuteSqlAndLog {
+sub executeSqlAndLog {
   my $log = `sqlplus system/oracle << EOF
 SET ECHO ON
 SET VERIFY ON
